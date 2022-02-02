@@ -1,0 +1,71 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+<div class="container sections-wrapper py-5">
+    <div class="row">
+        <div class="primary col-lg-8 col-12">
+            <section class="about section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">About Me</h2>
+                    <div class="content">
+                        <p>Over my 10+ years in the tech industry, I've realized that lasting operational resilience stems not from technology, but from people. What often appears as one-time crises is actually part of a much larger system that's influenced by the people, processes, and systems that make up an organization. My goal is to foster this ideal within all levels of an organization to attain high performance. <br> <br> Experience in multiple industries allows me to communicate effectively across departments and management levels, guiding key players to collaboratively accomplish their goals. Rather than deliver short-term patches, my leadership prompts long-term change that improves organizational systems to realize lasting impact.</p>
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+
+           <section class="latest section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">See and Hear What I Have to Say</h2>
+                    <div class="content">
+                      <iframe src="https://open.spotify.com/embed/playlist/5LJn5pl9H2RwnlG43acMmT?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        <hr class="divider" />
+                        {%- for post in site.data.external_blog_posts -%}
+                        <div class="item row">
+                            <a class="col-md-4 col-12" href="{{ post.href }}" target="_blank">
+                            <img class="img-fluid project-image rounded shadow-sm" src="{{ post.image }}" alt="project name" />
+                            </a>
+                            <div class="desc col-md-8 col-12">
+                                <h3 class="title"><a href="{{ post.href }}" target="_blank">{{ post.title }}</a></h3>
+                                <p class="mb-2">{{ post.blurb }}</p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+                        {%- endfor -%}
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+        </div><!--//primary-->
+        <div class="secondary col-lg-4 col-12">
+            <aside class="skills aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Certifications</h2>
+                    <div class="content">
+                      <div class="item">
+                        <ul>
+                          <li><a href="https://www.credly.com/badges/ea15effa-cdad-4fd2-98c9-9a409ca4ce24/public_url">AWS Solutions Architect - Associate</a></li>
+                          <li><a href="https://verify.skilljar.com/c/2xkvh9ntztii">FinOps Certified PractitionerFinOps Certified Practitioner</a></li>
+                        </ul>
+                      </div>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="credits aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Credits</h2>
+                    <div class="content">
+                        <ul class="list-unstyled pb-2">
+                            <li><a href="https://getbootstrap.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Bootstrap</a></li>
+                            <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fas fa-external-link-alt"></i>FontAwesome</a></li>
+                        </ul>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+        </div><!--//secondary-->
+    </div><!--//row-->
+</div><!--//masonry-->
