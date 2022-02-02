@@ -22,9 +22,7 @@ title: Jesse DeRose
 email: jesse@thecloudisnigh.com
 description: >- # this means to ignore newlines until "baseurl:"
   A GitHub Pages site for Jesse DeRose.
-domain: jcderose.github.io
-url: https://jcderose.github.io
-#url: "https://www.thecloudisnigh.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.thecloudisnigh.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 twitter_username: jesse_derose
 github_username:  jcderose
@@ -35,9 +33,6 @@ devto_username: jcderose
 #theme: minima
 #plugins:
 #  - jekyll-feed
-
-# Serve command options
-port: 8080
 
 # Exclude from processing.
 # The following items will not be processed, by default.
