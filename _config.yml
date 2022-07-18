@@ -22,7 +22,7 @@ title: Jesse DeRose
 email: jesse@derose.cloud
 description: >- # this means to ignore newlines until "baseurl:"
   A GitHub Pages site for Jesse DeRose.
-url: "https://www.thecloudisnigh.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.derose.cloud" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 twitter_username: jesse_derose
 github_username:  jcderose
