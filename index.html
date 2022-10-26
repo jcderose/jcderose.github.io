@@ -46,6 +46,22 @@ layout: default
                      </div><!--//content-->
                  </div><!--//section-inner-->
              </section><!--//section-->
+             <section class="latest section">
+                  <div class="section-inner shadow-sm rounded">
+                      <h2 class="heading">Talks</h2>
+                      <div class="content">
+                        {%- for talk in site.data.talks -%}
+                        <div class="item row">
+                            <img class="img-fluid project-image rounded shadow-sm col-md-4 col-12" src="{{ talk.thumbnail }}" alt="project name" />
+                            <div class="desc col-md-8 col-12">
+                                <h3 class="title">{{ talk.title }}</h3>
+                                <p class="mb-2"><a href="{{ talk.video }}" target="_blank">Video recording</a></p>
+                                <p class="mb-2"><a href="{{ talk.slides }}" target="_blank">Slides</p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+                        {%- endfor -%}
+                  </div><!--//section-inner-->
+              </section><!--//section-->
         </div><!--//primary-->
         <div class="secondary col-lg-4 col-12">
             <aside class="skills aside section">
