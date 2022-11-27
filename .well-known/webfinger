@@ -1,0 +1,23 @@
+{
+    "subject": "acct:jesse_derose@sfba.social",
+    "aliases": [
+        "https://sfba.social/@jesse_derose",
+        "https://sfba.social/users/jesse_derose"
+    ],
+    "links": [
+        {
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://sfba.social/@jesse_derose"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://sfba.social/users/jesse_derose"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://sfba.social/authorize_interaction?uri={uri}"
+        }
+    ]
+}

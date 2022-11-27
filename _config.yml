@@ -53,3 +53,6 @@ devto_username: jcderose
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Include these files/folders that are excluded by default
+include: [ "/.well-known" ]
