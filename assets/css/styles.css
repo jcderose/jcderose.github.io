@@ -828,3 +828,10 @@ body[data-theme="dark"] .text-muted {
     max-width: inherit;
   }
 }
+
+/* ======= FontAwesome ======= */
+.fa-brands, .fab {
+    font-weight: 400;
+    font-size: x-large;
+    padding-top: 6px;
+}
