@@ -1,0 +1,98 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+<!-- Mastadon link validation -->
+<a rel="me" href="https://sfba.social/@jesse_derose"></a>
+
+<div class="container sections-wrapper py-5">
+    <div class="row">
+        <div class="primary col-lg-8 col-12">
+            <section class="about section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">About Me</h2>
+                    <div class="content">
+                        <p>10 years building digital transformation programs across IT, DevOps, and FinOps taught me that lasting success stems from people, not from technology. My programs are successful because they align people, processes, and technology to accomplish quick-wins and create sustainable long-term change.</p>
+                        <p>My consulting mindset enables me to work with multiple organizations and vendors at various levels of project management maturity, and build strong working relationships with senior leaders and engineers across functions and departments. My deep familiarity with software and business development processes enables me to effectively manage complex cross-functional projects.</p>
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+
+           <section class="latest section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Writings</h2>
+                    <div class="content">
+                        {%- for post in site.data.external_blog_posts -%}
+                        <div class="item row">
+                            <a class="col-md-4 col-12" href="{{ post.href }}" target="_blank">
+                            <img class="img-fluid project-image rounded shadow-sm" src="{{ post.image }}" alt="project name" />
+                            </a>
+                            <div class="desc col-md-8 col-12">
+                                <h3 class="title"><a href="{{ post.href }}" target="_blank">{{ post.title }}</a></h3>
+                                <p class="mb-2">{{ post.blurb }}</p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+                        {%- endfor -%}
+                        For additional content, check out <a href="https://dev.to/{{ site.devto_username }}">my blog</a>.
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+            <section class="latest section">
+                 <div class="section-inner shadow-sm rounded">
+                     <h2 class="heading">Podcast Appearances</h2>
+                     <div class="content">
+                       <iframe src="https://open.spotify.com/embed/playlist/5LJn5pl9H2RwnlG43acMmT?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                         <hr class="divider" />
+                     </div><!--//content-->
+                 </div><!--//section-inner-->
+             </section><!--//section-->
+             <section class="latest section">
+                  <div class="section-inner shadow-sm rounded">
+                      <h2 class="heading">Talks</h2>
+                      <div class="content">
+                        {%- for talk in site.data.talks -%}
+                        <div class="item row">
+                            <img class="img-fluid project-image rounded shadow-sm col-md-4 col-12" src="{{ talk.thumbnail }}" alt="project name" />
+                            <div class="desc col-md-8 col-12">
+                                <h3 class="title">{{ talk.title }}</h3>
+                                <p class="mb-2"><a href="{{ talk.video }}" target="_blank">Video recording</a></p>
+                                <p class="mb-2"><a href="{{ talk.slides }}" target="_blank">Slides</p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+                        {%- endfor -%}
+                  </div><!--//section-inner-->
+              </section><!--//section-->
+        </div><!--//primary-->
+        <div class="secondary col-lg-4 col-12">
+            <aside class="skills aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Certifications</h2>
+                    <div class="content">
+                      <div class="item">
+                        <ul>
+                          <li><a href="https://www.credly.com/badges/ea15effa-cdad-4fd2-98c9-9a409ca4ce24/public_url">AWS Solutions Architect - Associate</a></li>
+                          <li><a href="https://verify.skilljar.com/c/2xkvh9ntztii">FinOps Certified PractitionerFinOps Certified Practitioner</a></li>
+                        </ul>
+                      </div>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="credits aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Credits</h2>
+                    <div class="content">
+                        <ul class="list-unstyled pb-2">
+                            <li><a href="https://getbootstrap.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Bootstrap</a></li>
+                            <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fas fa-external-link-alt"></i>FontAwesome</a></li>
+                        </ul>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+        </div><!--//secondary-->
+    </div><!--//row-->
+</div><!--//masonry-->
