@@ -1,5 +1,9 @@
 <head>
-  <title>{{ site.title }}</title>
+  {% if page.title %}
+    <title>{{ site.title }} | {{ page.title }}</title>
+  {% else %}
+    <title>{{ site.title }}</title>
+  {% endif %}
   <!-- Meta -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
