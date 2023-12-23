@@ -21,7 +21,7 @@ layout: default
 					    </div>
 					    <div class="col">
 							{% if post.external_url %}
-						    <h3 class="title mb-1"><a class="text-link" href="{{ post.external_url }}">{{ post.title }}</a></h3>
+						    <h3 class="title mb-1"><a class="text-link" href="{{ post.external_url }}">{{ post.title }} (Guest Post)</a></h3>
 							{% else %}
 							<h3 class="title mb-1"><a class="text-link" href="{{ post.url }}">{{ post.title }}</a></h3>
 							{% endif %}
