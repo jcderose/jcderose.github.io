@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title:  "Do I Really Need to Travle for Consulting Work?"
+title:  "Do I Really Need to Travel for Consulting Work?"
 date:   2022-09-21 15:44:57 -0700
 categories: cloud writing management
 permalink: /travel-for-consulting-work
