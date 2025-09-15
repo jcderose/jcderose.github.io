@@ -39,12 +39,11 @@ Well.
 
 In the [2022 State of FinOps Survey](https://data.finops.org/), 30% of all respondents said making engineers take action was the biggest challenge they faced. 
 
-![via data.finops.org](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yrcspdv39z1c5eorxcdq.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yrcspdv39z1c5eorxcdq.png" alt="via data.finops.org" width="600" height="500">
 
 An additional 22% reported struggles with organizational adoption of FinOps. 
 
-
-![via data.finops.org](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5652qwlvj4ih0gk8f9jg.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5652qwlvj4ih0gk8f9jg.png" alt="via data.finops.org" width="600" height="500">
 
 That's 52% of respondents who said their main challenge in implementing CFM practices was related to culture. **That's right, over half of respondents expressed culture change as a major hurdle for successful CFM practices.**
 
