@@ -13,11 +13,15 @@
                 
                 <div class="bio mb-3">Your guide for successful FinOps programs.</div><!--//bio-->
                 <ul class="social-list list-inline py-3 mx-auto">
+                    {% if site.twitter_username %}
                     <li class="list-inline-item"><a href="https://www.twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i></a></li>
+                    {% endif %}
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin-in"></i></a></li>
                     <li class="list-inline-item"><a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github-alt"></i></a></li>
                     <li class="list-inline-item"><a href="https://dev.to/{{ site.devto_username }}"><i class="fab fa-dev"></i></a></li>
+                    {% if site.mastodon_username %}
                     <li class="list-inline-item"><a href="https://{{ site.mastodon_server }}/@{{ site.mastodon_username }}"><i class="fa-brands fa-mastodon"></i></a></li>
+                    {% endif %}
                 </ul><!--//social-list-->
                 <hr> 
             </div><!--//profile-section-->

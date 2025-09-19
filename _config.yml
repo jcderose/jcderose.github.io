@@ -24,12 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   A GitHub Pages site for Jesse DeRose.
 url: "https://www.derose.cloud" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
-twitter_username: jesse_derose
 github_username:  jcderose
 linkedin_username: jessederose
 devto_username: jcderose
-mastodon_server: sfba.social
-mastodon_username: jesse_derose
 
 # Build settings
 #theme: minima
