@@ -21,9 +21,10 @@
 title: Jesse DeRose
 email: jesse@derose.cloud
 description: >- # this means to ignore newlines until "baseurl:"
-  A GitHub Pages site for Jesse DeRose.
+  Helping business leaders balance profit and social impact.
 url: "https://www.derose.cloud" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
+keywords: "storytelling,jcderose,jesse derose,purposeful work,social impact,corporate social responsibility,sustainability,aws,software engineering,devops,blog,podcast,cloud,cost,finops,cloud financial management"
 github_username:  jcderose
 linkedin_username: jessederose
 devto_username: jcderose
