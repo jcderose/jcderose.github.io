@@ -21,7 +21,7 @@
 title: Jesse DeRose
 email: jesse@derose.cloud
 description: >- # this means to ignore newlines until "baseurl:"
-  Helping business leaders balance efficiency and impact.
+  Amplifying mission-driven work by ensuring individuals and organizations have the capacity, clarity, and systems they need to flourish.
 url: "https://www.derose.cloud" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 keywords: "storytelling,jcderose,jesse derose,purposeful work,social impact,corporate social responsibility,sustainability,aws,software engineering,devops,blog,podcast,cloud,cost,finops,cloud financial management"
